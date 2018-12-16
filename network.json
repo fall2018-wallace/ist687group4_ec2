@@ -553,7 +553,13 @@
             "target": "finalLM.txt"
         },
         {
-            "ports": [],
+            "ports": [
+                {
+                    "input": "satisfactionSurvey",
+                    "output": "satisfactionSurvey",
+                    "type": "r_obj"
+                }
+            ],
             "source": "cleanData.R",
             "target": "Sampling.R"
         }
@@ -739,6 +745,6 @@
             "name": "Sampling.R"
         }
     ],
-    "updated_at": "2018-12-16 19:34:04",
+    "updated_at": "2018-12-16 19:34:44",
     "url": "https://github.com/fall2018-wallace/ist687group4_ec2"
 }

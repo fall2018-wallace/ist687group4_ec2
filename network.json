@@ -562,6 +562,16 @@
             ],
             "source": "cleanData.R",
             "target": "Sampling.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionSurvey",
+                    "type": "csv"
+                }
+            ],
+            "source": "Sampling.R",
+            "target": "SampledCSV.csv"
         }
     ],
     "nodes": [
@@ -752,6 +762,6 @@
             "name": "SampledCSV.csv"
         }
     ],
-    "updated_at": "2018-12-16 20:38:54",
+    "updated_at": "2018-12-16 20:39:17",
     "url": "https://github.com/fall2018-wallace/ist687group4_ec2"
 }

@@ -494,17 +494,6 @@
         {
             "ports": [
                 {
-                    "input": "ssClean",
-                    "output": "satisfactionSurvey",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "cleanData.R",
-            "target": "svmModeling.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "satisfactionSurvey",
                     "type": "csv"
                 }
@@ -583,6 +572,17 @@
             ],
             "source": "Sampling.R",
             "target": "svmModeling.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfactionSurvey",
+                    "output": "satisfactionSurvey",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Sampling.R",
+            "target": "numberizeSatisfaction.R"
         }
     ],
     "nodes": [
@@ -773,6 +773,6 @@
             "name": "SampledCSV.csv"
         }
     ],
-    "updated_at": "2018-12-16 20:57:04",
+    "updated_at": "2018-12-16 20:57:55",
     "url": "https://github.com/fall2018-wallace/ist687group4_ec2"
 }

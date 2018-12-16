@@ -551,6 +551,11 @@
             ],
             "source": "linearModel.R",
             "target": "finalLM.txt"
+        },
+        {
+            "ports": [],
+            "source": "cleanData.R",
+            "target": "Sampling.R"
         }
     ],
     "nodes": [
@@ -734,6 +739,6 @@
             "name": "Sampling.R"
         }
     ],
-    "updated_at": "2018-12-16 19:33:36",
+    "updated_at": "2018-12-16 19:34:02",
     "url": "https://github.com/fall2018-wallace/ist687group4_ec2"
 }

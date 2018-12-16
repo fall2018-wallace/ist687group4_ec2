@@ -576,7 +576,7 @@
         {
             "ports": [
                 {
-                    "input": "satisfactionSurvey",
+                    "input": "ssClean",
                     "output": "satisfactionSurvey",
                     "type": "r_obj"
                 }
@@ -773,6 +773,6 @@
             "name": "SampledCSV.csv"
         }
     ],
-    "updated_at": "2018-12-16 20:56:47",
+    "updated_at": "2018-12-16 20:57:04",
     "url": "https://github.com/fall2018-wallace/ist687group4_ec2"
 }

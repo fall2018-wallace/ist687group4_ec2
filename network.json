@@ -572,6 +572,17 @@
             ],
             "source": "Sampling.R",
             "target": "SampledCSV.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfactionSurvey",
+                    "output": "satisfactionSurvey",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Sampling.R",
+            "target": "svmModeling.R"
         }
     ],
     "nodes": [
@@ -762,6 +773,6 @@
             "name": "SampledCSV.csv"
         }
     ],
-    "updated_at": "2018-12-16 20:39:17",
+    "updated_at": "2018-12-16 20:56:47",
     "url": "https://github.com/fall2018-wallace/ist687group4_ec2"
 }

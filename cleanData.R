@@ -104,4 +104,3 @@ satisfactionSurvey$Flight.time.in.minutes.0.Est <- ifelse (is.na(satisfactionSur
 
 # I have left these unrounded for now so that we can distinguish them from the non-estimated
 # values in case we have questions about their accuracy. We can round them if need be.
-satisfactionSurvey

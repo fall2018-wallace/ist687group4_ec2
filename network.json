@@ -663,8 +663,10 @@
             "name": "discretizingPart3.R"
         },
         {
+            "assigned_to": "sukulkar",
             "desc": "Clean the raw data in accordance with the group's decisions as follows: Remove the non-numeric Satisfaction entries that seem to be errors and account for the NULL values in a separate variable for future modelling.",
-            "name": "cleanData.R"
+            "name": "cleanData.R",
+            "task_status": "in progress"
         },
         {
             "desc": "Created a new data frame based the Satisfaction level and the geographic location. Cleaned and visualized the data by States as well as reported the findings. ",
@@ -745,8 +747,11 @@
             "desc": "Sampling of data will be done at random.",
             "name": "Sampling.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "SampledCSV.csv"
         }
     ],
-    "updated_at": "2018-12-16 19:35:53",
+    "updated_at": "2018-12-16 20:38:54",
     "url": "https://github.com/fall2018-wallace/ist687group4_ec2"
 }
